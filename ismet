@@ -1,0 +1,21 @@
+using System.Net.Http;
+using System.Threading.Tasks;
+using System;
+using System.Xml.Schema;
+using System.Runtime.CompilerServices;
+
+public class InsuranceData
+{
+    public int age (23) { get; set; }
+    public object Gender (male) { get; set; }
+    public int NumberOfAccidents { get; set; }
+
+    // Additional properties can be added, such as driver's history, vehicle information, and more.
+}
+
+public class NFLPlayerStatistics
+{
+    public string PlayerName(phil);
+    public string Team (philadelphia);
+    public int Touchdowns (30);
+    public int YardsGained (500);
